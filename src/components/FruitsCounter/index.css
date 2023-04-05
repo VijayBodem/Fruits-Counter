@@ -1,0 +1,39 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  padding: 28px;
+  border-radius: 10px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.counter {
+  color: #ffd569;
+}
+img {
+  height: 140px;
+  margin: 20px;
+}
+.btn {
+  background-color: #007bff;
+  padding: 10px 10px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 80px;
+}
